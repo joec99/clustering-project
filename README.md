@@ -33,7 +33,46 @@ The dataset includes customer transactions from five continents and 47 countries
 6. Results Visualization and Interpretation
 
 ## Key Findings
-(To be filled in after completing the analysis)
+Once it was found that the optimal cluster number was 3, k-means was applied to the dataset and the below feature distributions could be observed within clusers: 
+
+![image](https://github.com/user-attachments/assets/383364e2-5f36-4b0e-ace8-11b6be5fe803)
+
+To beter visualise the clusters, PCA was undertaken and then the results plotted: 
+
+![image](https://github.com/user-attachments/assets/5462933a-9c78-4a29-a156-8cc4eb4dfbca)
+
+Together, the following cluster interpretations could be determined: 
+
+# Customer Segmentation Insights and Marketing Strategies
+
+## Cluster Analysis Results
+
+**Cluster 1: Young, Low-Value Customers**
+- Characteristics: Younger demographic, low purchase frequency, less recent engagement, lower spending per unit
+- Key Marketing Activities:
+  1. Implement targeted reactivation campaigns to re-engage these customers
+  2. Develop promotions focusing on accessible, low unit-cost products to encourage more frequent purchases
+  3. Utilize social media and digital channels popular among younger demographics for marketing outreach
+  4. Create loyalty programs with easily attainable initial rewards to boost engagement
+  5. Offer personalized product recommendations based on past purchases to increase relevance
+
+**Cluster 2: Middle-Aged, Moderate-Value Customers**
+- Characteristics: Middle-aged, moderate purchase frequency, recent engagement, moderate to high spending per unit
+- Key Marketing Activities:
+  1. Implement upselling and cross-selling strategies to increase customer lifetime value
+  2. Develop targeted email campaigns showcasing mid-range to premium products
+  3. Create bundle offers combining frequently purchased items with new, complementary products
+  4. Implement a tiered loyalty program to encourage increased spending and engagement
+  5. Utilize personalized content marketing to educate customers about higher-value products and services
+
+**Cluster 3: Older, High Unit-Cost, Low-Engagement Customers**
+- Characteristics: Older demographic, lower engagement frequency, less recent activity, higher spending per unit
+- Key Marketing Activities:
+  1. Develop a win-back campaign focusing on the unique value proposition for premium products
+  2. Create exclusive, personalized offers for high-value items to re-engage these customers
+  3. Implement a VIP program with concierge services and early access to new premium products
+  4. Utilize traditional marketing channels (e.g., direct mail) alongside digital methods for outreach
+  5. Develop content marketing strategies focusing on the quality and longevity of premium products
 
 ## Future Work
 - Implement more advanced clustering techniques (e.g., DBSCAN, Gaussian Mixture Models)
