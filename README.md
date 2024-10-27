@@ -74,9 +74,9 @@ Together, the following cluster interpretations could be determined:
   4. Utilize traditional marketing channels (e.g., direct mail) alongside digital methods for outreach
   5. Develop content marketing strategies focusing on the quality and longevity of premium products
 
-## Future Work
+## Future Projects - Retail-Focused Data Science
 - Implement more advanced clustering techniques (e.g., DBSCAN, Gaussian Mixture Models)
-- Develop a customer lifetime value prediction model
+- Develop a customer lifetime value & churn prediction models
 - Create an interactive dashboard for exploring customer segments
 
 ## Tools Used
@@ -86,7 +86,4 @@ Together, the following cluster interpretations could be determined:
 - Scikit-learn
 - Matplotlib, Seaborn
 
-## About Me
-I'm a data analyst transitioning into data science, passionate about leveraging data to drive business decisions. This project showcases my ability to handle complex datasets, apply machine learning techniques, and derive actionable insights.
 
-Feel free to reach out if you have any questions or would like to discuss this project further!
